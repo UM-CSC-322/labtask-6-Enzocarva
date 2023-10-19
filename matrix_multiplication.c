@@ -110,7 +110,7 @@ void output_matrix(double *matrix, int rows, int columns)
     {
         for (int j = 0; j < columns; j++)
         {
-            printf("%lf", matrix[i * columns + j]);
+            printf("%lf ", matrix[i * columns + j]);
         }
         printf("\n");
     }
